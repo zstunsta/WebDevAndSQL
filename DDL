@@ -1,0 +1,12 @@
+
+COPY tbl_locations FROM 'C:/ArcGIS_ConfigFiles/MidtermTables/tblLocations2.txt'
+DELIMITERS ',' CSV;
+
+COPY tbl_events FROM 'C:/ArcGIS_ConfigFiles/MidtermTables/tblEvents.txt'
+DELIMITERS ',' CSV;
+
+COPY tbl_species FROM 'C:/ArcGIS_ConfigFiles/MidtermTables/lu_species.txt'
+DELIMITERS ',' CSV;
+
+COPY tbl_data FROM 'C:/ArcGIS_ConfigFiles/MidtermTables/tbl_data2.txt'
+DELIMITERS ',' CSV;
