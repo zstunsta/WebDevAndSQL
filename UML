@@ -42,7 +42,7 @@ create table tbl_Events (
    EventID varchar (75) not null,
    Year    integer              ,
    constraint pk_tbl_Events primary key (EventID)
-)   ;
+)   ; 
 create table tbl_Data (
    RecID      numeric (8)   not null,
    LocationID varchar (25)          ,
