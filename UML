@@ -1,0 +1,80 @@
+-- Parse::SQL::Dia      version 0.25                              
+-- Documentation        http://search.cpan.org/dist/Parse-Dia-SQL/
+-- Environment          Perl 5.016003, C:\Perl\bin\perl.exe       
+-- Architecture         MSWin32-x86-multi-thread                  
+-- Target Database      postgres                                  
+-- Input file           midTerm1.dia                              
+-- Generated at         Wed Oct 27 15:20:56 2021                  
+-- Typemap for postgres not found in input file                   
+
+-- Use alter constraints only if tables have already been create
+-- This will remove relationships between tables
+-- get_constraints_drop 
+--alter table tbl_Data drop constraint EventsHaveData ;
+--alter table tbl_Data drop constraint SpeciesHasData ;
+--alter table tbl_Data drop constraint LocationsHaveData ;
+-- get_permissions_drop 
+
+-- get_view_drop
+-- Use drop statements only if tables have already been created
+-- This will delete the tables in the database
+-- get_schema_drop
+--drop table tbl_Locations;
+--drop table tbl_Events;
+--drop table tbl_Data;
+--drop table tbl_species;
+
+-- get_smallpackage_pre_sql 
+
+-- get_schema_create
+-- Creates all 4 empty tables with coumn types and character limit
+
+create table tbl_Locations (
+   LocationID         varchar (35)   not null,
+   LocationDescript   varchar (100)          ,
+   UTMX               numeric (20,2)         ,
+   UTMY               numeric (20,2)         ,
+   Habitat            varchar (100)          ,
+   HabitatDescription varchar (255)          ,
+   constraint pk_tbl_Locations primary key (LocationID)
+)   ;
+create table tbl_Events (
+   EventID varchar (75) not null,
+   Year    integer              ,
+   constraint pk_tbl_Events primary key (EventID)
+)   ;
+create table tbl_Data (
+   RecID      numeric (8)   not null,
+   LocationID varchar (25)          ,
+   EventID    varchar (75)          ,
+   Category   integer               ,
+   Protocol   varchar (255)         ,
+   SpeciesID  varchar (25)          ,
+   TimeofDay  varchar (25)          ,
+   Number     integer            ,
+   constraint pk_tbl_Data primary key (RecID)
+)   ;
+create table tbl_species (
+   SpeciesID     varchar (25)  not null,
+   CategoryID    integer               ,
+   FullLatinName varchar (255)         ,
+   CommonName    varchar (255)         ,
+   constraint pk_tbl_species primary key (SpeciesID)
+)   ;
+
+-- get_view_create
+
+-- get_permissions_create
+
+-- get_inserts
+
+-- get_smallpackage_post_sql
+
+-- get_associations_create
+-- Create table relationships with primary and foriegn keys
+alter table tbl_Data add constraint EventsHaveData 
+    foreign key (EventID)
+    references tbl_Events (EventID) ;
+alter table tbl_Data add constraint SpeciesHasData 
+    foreign key (SpeciesID)
+    references tbl_species (SpeciesID) ;
