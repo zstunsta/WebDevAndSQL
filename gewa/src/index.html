@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>GEWA GIS550 A10 zstunsta</title>
+  <div class="logo">
+
+    <h1> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/800px-Logo_of_the_United_States_National_Park_Service.svg.png' alt='NPS'> George Washington Birthplace National Monument <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/800px-Logo_of_the_United_States_National_Park_Service.svg.png' alt='NPS'></h1>
+  </div>
+</head>
+
+<body>
+  <gismap>
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 1px;
+        margin: 2px;
+        height: 100%;
+        width: 100%;
+      }
+
+      #sidebar {
+        z-index: 99;
+        position: absolute;
+        top: 190px;
+        right: 0;
+        height: 95%;
+        background: rgba(0, 0, 0, 0.3);
+        width: 280px;
+      }
+
+      #text {
+        color: white;
+        padding: 3%;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.19/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.19/"></script>
+    <script>
+      require([
+        "esri/views/MapView",
+        "esri/widgets/Legend",
+        "esri/widgets/LayerList",
+        "esri/WebMap",
+        "esri/widgets/Home",
+        "esri/widgets/BasemapToggle"
+      ], function(MapView, Legend, LayerList, WebMap, Home, BasemapToggle) {
+        var ArcOnlineMap = new WebMap({
+          portalItem: {
+            id: "10ef6a79b1c34fb69a98b7f0b25c8853"
+          }
+        });
+        var view = new MapView({
+          container: "viewDiv",
+          map: ArcOnlineMap,
+          padding: {
+            right: 280,
+          }
+        });
+        var legend = new Legend({
+          view: view,
+        });
+        const layerList = new LayerList({
+          view: view,
+          padding: {
+            right: 280,
+          }
+        });
+        var homeBtn = new Home({
+          view: view
+        });
+        var toggle = new BasemapToggle({
+          view: view,
+          nextBasemap: "hybrid"
+        });
+        view.ui.add(legend, "bottom-right");
+        view.ui.add(layerList, "top-right");
+        view.ui.add(homeBtn, "top-left", 1);
+        view.ui.add(toggle, "top-left", 2);
+      });
+    </script>
+  </gismap>
+</body>
+
+<div id="viewDiv"></div>
+<div id="sidebar" class="esri-widget">
+  <div id="text">
+    <h2>GEWA Park Vegetation and Fish Sampling Locations</h2>
+    <p>This basemap of George Washington Birthplace National Monument Memorial Park includes building footprint, roads, structures soil & vegetation types, park boundaries, local streams, water bodies and data on fish location recorded via the National Parks Service.<br>Data derived from National Park Service Shape files and text files containing location of fish species data<br>Map Author: Zach Tunstall<br><br>Park Grounds
+    </p>
+    <div class='image'>
+      <img src='https://www.nps.gov/gewa/learn/management/images/GEWA-Obelisk-and-Farm-Fences-at-Sunrise.jpg?maxwidth=1200&autorotate=false' alt='George Washington Monument'>
+    </div>
+  </div>
+</div>
+<footer class='foot'>
+  <h3>Created with CodePen, ArcGIS API for JavaScript, REST Services, PostGre SQL, ArcGIS Online. <br> </h3>
+</footer>
+
+</html>
