@@ -1,0 +1,62 @@
+"GEWA_BC_ODO_04/23/2004_14:00","GEWA_BC",4/23/2004 0:00:00,30,"From Bridges Creek Landing, S along Bridges Creek edge for about 0.5 km (air km to the S).",2,83,0
+"GEWA_BC_ODO_09/27/2004_11:30","GEWA_BC",9/27/2004 0:00:00,30,"From Bridges Creek Landing - along Braidges Creek edge S for about 0.7 km.",6,72,2
+"GEWA_BRP_ODO_04/23/2004_13:00","GEWA_BRP",4/23/2004 0:00:00,60,"Surveyed perimeter of Beach Road Pond and it's headwaters (S end).",2,83,0
+"GEWA_BRP_ODO_06/05/2003_10:30","GEWA_BRP",6/5/2003 0:00:00,210,"Walked perimeter of pond",2,85,0
+"GEWA_BRP_ODO_06/08/2004_12:45","GEWA_BRP",6/8/2004 0:00:00,90,"Entered from S end (seepage area), and surveyed western edge for about 150m.",3,85,0
+"GEWA_BRP_ODO_08/06/2004_12:30","GEWA_BRP",8/6/2004 0:00:00,120,"Survyed perimeter of Beach Road pond and the adjacent field.",2,80,2
+"GEWA_BRP_ODO_09/14/2004_13:50","GEWA_BRP",9/14/2004 0:00:00,20,"NE section of Peach Road Pond surveyed",6,77,0
+"GEWA_DM_ODO_05/05/2004_11:00","GEWA_DM",5/5/2004 0:00:00,30,"Surveyed Picnic Area to trail along Pope's Creek edge, up to Dancing Marsh's eastern edge then NE through powerline ROW.",1,68,2
+"GEWA_DM_ODO_05/05/2004_13:45","GEWA_DM",5/5/2004 0:00:00,45,"Walked to N headwaters of Dancing Marsh - followed seepage up stream",3,68,2
+"GEWA_DM_ODO_05/14/2004_10:15","GEWA_DM",5/14/2004 0:00:00,30,"Dancing Marsh - at mouth on S side.",1,87,2
+"GEWA_DM_ODO_07/15/2004_13:15","GEWA_DM",7/15/2004 0:00:00,45,"Canoed into Dancing Marsh",1,85,2
+"GEWA_DM_ODO_07/22/2003_14:30","GEWA_DM",7/22/2003 0:00:00,30,"From ca. 0.3km NE of Ice Pond to the Ice Pond, along narrow creek (outflow of ice pond) feeding Dancing marsh",4,90,0
+"GEWA_DM_ODO_07/29/2004_14:30","GEWA_DM",7/29/2004 0:00:00,75,"Dancing Marsh - from NW arm, followed edges to Ice Pond impoundment and back around.",2,86,1
+"GEWA_DS_ODO_06/05/2003_10:30","GEWA_DS",6/5/2003 0:00:00,210,"Entered from N end (at Potmac River), surveyed W side for about 0.25 km.",2,85,0
+"GEWA_DS_ODO_06/08/2004_10:00","GEWA_DS",6/8/2004 0:00:00,135,"Walked to N end of Digwood Swamp along W edge.",3,85,0
+"GEWA_DS_ODO_07/22/2003_11:30","GEWA_DS",7/22/2003 0:00:00,120,"Digwood Swamp - surveyed from W edge (and in the swamp as passable).",4,90,0
+"GEWA_DS_ODO_07/29/2004_10:30","GEWA_DS",7/29/2004 0:00:00,135,"Walked from maintainence road crossing of Digwood Swamp drainage, N to Digwood Swamp (W edge) to Potomac, then back S through field adjacent.",5,86,0
+"GEWA_DS_ODO_09/14/2004_14:45","GEWA_DS",9/14/2004 0:00:00,20,"Short survey of W side of Digwood Swamp, from N end, ca. 0.25km S.",6,77,0
+"GEWA_DS_ODO_09/27/2004_13:35","GEWA_DS",9/27/2004 0:00:00,15,"Digwood Swamp headwaters, ca. 0.6km SSW where Digwood Swamp enters the Potomac River. Survey area was about 0.1 km long",6,72,2
+"GEWA_GF_ODO_04/23/2004_10:00","GEWA_GF",4/23/2004 0:00:00,120,"Walked fields E of Beach Road from parking for the Cemetary N to cliffs, E ca. 0.3 km then S ca. 1km and back to parking area.",2,83,0
+"GEWA_GF_ODO_06/05/2003_10:30","GEWA_GF",6/5/2003 0:00:00,210,"From Digwood Swamp crossed fields, first heading SW about  0.5 km, then NW back to Beach Road Pond.",2,85,0
+"GEWA_GF_ODO_06/08/2004_10:00","GEWA_GF",6/8/2004 0:00:00,135,"Walked from N end of Digwood Swamp, through adjacent field (west side) to ca. 0.4 km S of Potomac River.",3,85,0
+"GEWA_GF_ODO_06/25/2004_13:00","GEWA_GF",6/25/2004 0:00:00,75,"From Bridges Creek Landing, walked fields to S (West of Beach Road) about 1 km.",2,82,1
+"GEWA_GF_ODO_07/22/2003_11:30","GEWA_GF",7/22/2003 0:00:00,120,"Area adjacent to Digwood Swamp (west side).",4,90,0
+"GEWA_GF_ODO_07/29/2004_12:45","GEWA_GF",7/29/2004 0:00:00,30,"Along W side of Digwood Swamp, walked S from Potomac about 1 km.",2,86,1
+"GEWA_GF_ODO_08/06/2004_13:30","GEWA_GF",8/6/2004 0:00:00,60,"field adjacent to Beach Road pond",2,80,2
+"GEWA_GF_ODO_09/14/2004_12:40","GEWA_GF",9/14/2004 0:00:00,20,"From Maintainence buildings, surveyd fields along road towards Beach Road (SW from buildings)",6,77,0
+"GEWA_GF_ODO_09/14/2004_14:15","GEWA_GF",9/14/2004 0:00:00,75,"Walked field along Potomac River cliffs edge, N end of GEWA between Beach Road Pond and Digwood Swamp",6,77,0
+"GEWA_GF_ODO_09/27/2004_13:00","GEWA_GF",9/27/2004 0:00:00,30,"fields near maintaince buildings road (at entrance from Beach Road)",6,72,2
+"GEWA_GF_ODO_09/27/2004_13:50","GEWA_GF",9/27/2004 0:00:00,40,"field - near a 'trash' heap (NPS disposes of leaves, limbs, other degradable material) - surveyed about 0.1 diameter area.",6,72,2
+"GEWA_HA_ODO_04/23/2004_15:00","GEWA_HA",4/23/2004 0:00:00,30,"Surveyed entire Herb Garden",2,83,0
+"GEWA_HA_ODO_05/14/2004_09:30","GEWA_HA",5/14/2004 0:00:00,120,"House and garden area, and edge of livestock fields.",1,87,2
+"GEWA_HA_ODO_06/08/2004_15:25","GEWA_HA",6/8/2004 0:00:00,35,"Walked to Herb Garden from Visitor's Center",3,85,0
+"GEWA_HA_ODO_07/15/2004_15:35","GEWA_HA",7/15/2004 0:00:00,25,"Walked to Herb Garden from Visitor's Center",1,85,2
+"GEWA_HA_ODO_07/22/2003_09:45","GEWA_HA",7/22/2003 0:00:00,90,"Surveyed Historical Area, from Visitor's Center, along path to Herb Garden, then along path past farm buildings and farm fields.",4,90,0
+"GEWA_HA_ODO_08/06/2004_10:30","GEWA_HA",8/6/2004 0:00:00,90,"Herb Garden (next to Mansion) and lawn and fields in the area were surveyed.",2,80,2
+"GEWA_HA_ODO_08/25/2004_15:30","GEWA_HA",8/25/2004 0:00:00,15,"Herb Graden surveyed",6,85,1
+"GEWA_HA_ODO_09/14/2004_10:30","GEWA_HA",9/14/2004 0:00:00,30,"Salked along cattle and sheep fields, to shoreline path to Herb Graden",6,77,0
+"GEWA_IP_ODO_06/08/2004_14:30","GEWA_IP",6/8/2004 0:00:00,45,"Surveyd entire pond",3,85,0
+"GEWA_IP_ODO_07/22/2003_15:00","GEWA_IP",7/22/2003 0:00:00,45,"Walked extent of the ice pond",4,90,0
+"GEWA_IP_ODO_08/25/2004_15:05","GEWA_IP",8/25/2004 0:00:00,20,"Surveyd entire Ice Pond",6,85,1
+"GEWA_IP_ODO_09/14/2004_11:10","GEWA_IP",9/14/2004 0:00:00,20,"Entire Ice Pond surveyed",6,77,0
+"GEWA_LS_ODO_05/14/2004_12:00","GEWA_LS",5/14/2004 0:00:00,210,"surveyed through pine plantation to cliff edge then E to Pope's Creek beach and marshes then to freshwater pond.",1,87,2
+"GEWA_LS_ODO_06/05/2003_14:00","GEWA_LS",6/5/2003 0:00:00,120,"Walked beach/marsh area near Pope's Creek then back to freshwater pond located ca. 0.8 km NW Pope's Creek Landing.",2,85,0
+"GEWA_LS_ODO_06/25/2004_10:15","GEWA_LS",6/25/2004 0:00:00,150,"Longwood Swamp area - walked perimeter of pond, and surrounding pine plantation, then crossed S to marsh area surveyed small area of marsh.",2,82,1
+"GEWA_LS_ODO_07/15/2004_10:30","GEWA_LS",7/15/2004 0:00:00,165,"Canoed in Pope's Creek (Longwood Swamp area primarily).  Landed and surveyed the beach as well.",0,85,2
+"GEWA_LS_ODO_08/25/2004_13:30","GEWA_LS",8/25/2004 0:00:00,60,"Surveyed pond, road and beach in Longwood Swamp area.",6,85,1
+"GEWA_LS_ODO_09/27/2004_10:00","GEWA_LS",9/27/2004 0:00:00,75,"Longwood Swamp area - surveyed cliffs to beach and the pond",6,72,3
+"GEWA_OTH_ODO_04/23/2004_14:30","GEWA_OTH",4/23/2004 0:00:00,10,"Cemetary - located W of Beach Road, ca. 0.6 km S of Bridges Creek Landing.",2,83,0
+"GEWA_OTH_ODO_05/05/2004_11:30","GEWA_OTH",5/5/2004 0:00:00,30,"Surveyed Picnic Area to trail along Pope's Creek edge, up to Dancing Marsh's eastern edge then NE through powerline ROW.",1,68,2
+"GEWA_OTH_ODO_05/05/2004_14:30","GEWA_OTH",5/5/2004 0:00:00,90,"From Dancing Marsh headwaters W and N up small seepage stream ending at 'Muse Road'",3,68,2
+"GEWA_OTH_ODO_06/25/2004_14:15","GEWA_OTH",6/25/2004 0:00:00,15,"Walked Beach Road ca. 1km S to N ending at Bridges Creek Landing.",3,82,1
+"GEWA_OTH_ODO_08/25/2004_12:00","GEWA_OTH",8/25/2004 0:00:00,15,"ca. 0.2 km of PROW surveyed (located SW of Picnic Area)",6,85,1
+"GEWA_OTH_ODO_08/25/2004_14:40","GEWA_OTH",8/25/2004 0:00:00,20,"PROW along 'Muse Road' surveyed aabout 0.5km",6,85,1
+"GEWA_OTH_ODO_09/14/2004_11:45","GEWA_OTH",9/14/2004 0:00:00,25,"'Muse Road' PROW, roadside and ditches walked from Bech Rd, ca. 0.5 km NE to cut-through over to Maintainence sheds",6,77,0
+"GEWA_OTH_ODO_09/27/2004_12:00","GEWA_OTH",9/27/2004 0:00:00,30,"From about 0.7km S of Bridges Creek Landing, N along Beach Road.",6,72,2
+"GEWA_PA_ODO_05/05/2004_10:00","GEWA_PA",5/5/2004 0:00:00,30,"Surveyed Picnic Area to trail along Pope's Creek edge, up to Dancing Marsh's eastern edge then NE through powerline ROW.",1,68,1
+"GEWA_PC_ODO_05/05/2004_10:30","GEWA_PC",5/5/2004 0:00:00,30,"Surveyed Picnic Area to trail along Pope's Creek edge, up to Dancing Marsh's eastern edge then NE through powerline ROW.",1,68,2
+"GEWA_PC_ODO_08/06/2004_09:50","GEWA_PC",8/6/2004 0:00:00,100,"E of Visitor's Center parking area, walked marsh/shoreline (at water or on cliff-tops).",2,80,1
+"GEWA_PCT_ODO_05/05/2004_13:00","GEWA_PCT",5/5/2004 0:00:00,30,"Pope's Creek Trail - N of Picnic Area, walked about 100m and back.",3,68,2
+"GEWA_PCT_ODO_08/06/2004_14:30","GEWA_PCT",8/6/2004 0:00:00,60,"Pope's Creek Trail -",2,80,2
+"GEWA_PCT_ODO_08/25/2004_10:30","GEWA_PCT",8/25/2004 0:00:00,90,"Surveyed perimeter of Picnic Area and Pope's Creek shoreline (S of Picnic Area) to PROW (SW of Picnic Area).",6,85,1
